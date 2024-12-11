@@ -14,6 +14,10 @@ public class Book {
 
     public Book() {}
 
+    public Book(int i, String s, String s1) {
+    }
+
+
     public int getId() { return id; }
     public void setId(int id) { this.id = id; }
 
