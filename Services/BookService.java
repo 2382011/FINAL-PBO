@@ -11,4 +11,12 @@ public interface BookService {
     boolean editBook(Book book);
 
     void reduceStock(Integer integer, Integer integer1);
+
+    boolean updateStok(Integer integer, Integer integer1);
+
+    Book[] searchBook(Integer integer);
+
+    Book getBookById(Integer integer);
+
+    Book[] searchBook(String keyword);
 }
